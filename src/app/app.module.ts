@@ -6,17 +6,25 @@ import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms';
 import { TempCalculatorComponent } from './components/temp-calculator/temp-calculator.component';
-import { TodlistComponent } from './components/todlist/todlist.component';
+import { TodolistComponent } from './components/todolist/todolist.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { AboutComponent } from './components/about/about.component';
+import { UserRegisterComponent } from './components/user-register/user-register.component';
+import { UserListComponent } from './components/user-list/user-list.component';
+import { UserLoginComponent } from './components/user-login/user-login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TempCalculatorComponent,
-    TodlistComponent,
+    TodolistComponent,
     HomePageComponent,
-    NavBarComponent
+    NavBarComponent,
+    AboutComponent,
+    UserRegisterComponent,
+    UserListComponent,
+    UserLoginComponent
   ],
   imports: [
     BrowserModule,
